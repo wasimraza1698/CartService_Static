@@ -45,7 +45,7 @@ namespace CartService.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Remove(int id)
         {
             try
